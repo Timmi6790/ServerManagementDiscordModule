@@ -1,0 +1,5 @@
+{
+  "modules": [
+    "de.timmi6790.server_management_module.ServerManagementModule"
+  ]
+}
