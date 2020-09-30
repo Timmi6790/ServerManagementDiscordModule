@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<project name="ServerManagementModule" default="Build">
+    <xmlproperty file="pom.xml" prefix="pom" keeproot="false"/>
+
+    <target name="Build">
+        <jar jarfile="${basedir}\run\plugins\${ant.project.name}.jar" basedir="./target/classes/" includes="**/*">
+        </jar>
+    </target>
+
+</project>
